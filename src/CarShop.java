@@ -1,5 +1,5 @@
 public class CarShop {
-    private final Seller seller = new Seller();
+    Seller seller = new Seller();
 
     public void sellCar() {
         seller.sellCar();
@@ -9,3 +9,9 @@ public class CarShop {
         seller.receiveCar();
     }
 }
+
+
+
+
+
+
